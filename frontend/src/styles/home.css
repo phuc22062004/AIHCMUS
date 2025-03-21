@@ -1,0 +1,61 @@
+body {
+    background: url("../images/background_home.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+.navbar {
+    background-color: #000 !important;
+    padding: 10px 0;
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    transition: color 0.3s ease-in-out;
+}
+.navbar-nav .nav-link:hover {
+    color: #ffc107 !important;
+}
+
+.content-container {
+    min-height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.custom-card {
+    height: 220px;
+    width: 350px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.custom-card h4 {
+    font-size: 1.3rem;
+}
+.custom-card p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+.custom-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.3);
+}
+
+.btn-light {
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.btn-light:hover {
+    background: #ffc107;
+    color: #000 !important;
+}

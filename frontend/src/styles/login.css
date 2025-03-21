@@ -1,0 +1,78 @@
+body {
+    background-image: url("../images/background_home.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.login-container h2 {
+    color: white;
+    text-align: center;
+}
+
+.login-container .form-label {
+    color: white;
+}
+
+.login-container .form-control {
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+}
+
+.login-container .form-control:focus {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+.login-container .btn-light {
+    width: 50%;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    background-color: #f0f0f0;
+    color: #333;
+    display: block;
+    margin: 0 auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.login-container .btn-light:hover {
+    background-color: #e0e0e0;
+    color: #000;
+}
+
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    margin-top: 10px;
+}
+
+.register-container p {
+    margin: 0;
+    color: white;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.register-container .btn {
+    padding: 4px 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
